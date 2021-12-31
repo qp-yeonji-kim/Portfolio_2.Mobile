@@ -1,0 +1,158 @@
+:root {
+	--font_big: 20px;
+	--font_middle: 20px;
+	--font_basic: 18px;
+	--font_small: 16px;
+	--font_s_btn: 12px;
+	--color_yellow: #ffdb00;
+	--color_blue: #0058a2;
+	--color_black: #191919;
+	--color_white: #fdfdfd;
+}
+
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../font/SFProKRDisplay_regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 500;
+	src: url(../font/SFProKRDisplay_medium.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 600;
+	src: url(../font/SFProKRDisplay_semibold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro kr';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../font/SFProKRDisplay_bold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro dp';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../font/sf-pro-display_medium.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro dp';
+	font-style: normal;
+	font-weight: 500;
+	src: url(../font/sf-pro-display_semibold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'SF pro dp';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../font/sf-pro-display_bold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: NtSans;
+	font-weight: 400;
+	font-style: normal;
+	src: url("../font/NotoSansKR-Regular.eot");
+	src: url("../font/NotoSansKR-Regular.eot#iefix") format("embedded-opentype"),
+		url("../font/NotoSansKR-Regular.woff") format("woff"),
+		url("../font/NotoSansKR-Regular.woff2") format("woff2"),
+		url("../font/NotoSansKR-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: NtSans;
+	font-weight: 600;
+	font-style: normal;
+	src: url("../font/NotoSansKR-Medium.eot");
+	src: url("../font/NotoSansKR-Medium.eot#iefix") format("embedded-opentype"),
+		url("../font/NotoSansKR-Medium.woff") format("woff"),
+		url("../font/NotoSansKR-Medium.woff2") format("woff2"),
+		url("../font/NotoSansKR-Medium.otf") format("opentype");
+}
+
+@font-face {
+	font-family: NtSans;
+	font-weight: 700;
+	font-style: normal;
+	src: url("../font/NotoSansKR-Bold.eot");
+	src: url("../font/NotoSansKR-Bold.eot#iefix") format("embedded-opentype"),
+		url("../font/NotoSansKR-Bold.woff") format("woff"),
+		url("../font/NotoSansKR-Bold.woff2") format("woff2"),
+		url("../font/NotoSansKR-Bold.otf") format("opentype");
+}
+
+.blind {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: none;
+	clip: (0, 0, 0, 0);
+	clip-path: (50%);
+	overflow: hidden;
+}
+
+.hidden {
+	overflow: hidden;
+}
+
+.inner {
+	padding: 0 12px;
+	margin: 0 auto;
+}
+
+.register {
+	display: inline-flex;
+	align-items: center;
+	padding: 9px 16px 10px;
+	font-size: var(--font_small);
+	font-weight: 300;
+	letter-spacing: .012em;
+	color: var(--color_black);
+	background-color: #fdfdfd;
+	border: 1px solid var(--color_black);
+	border-radius: 100px;
+}
+
+.register i svg {
+	display: inline-block;
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+	margin: 0 -5px 0 4px;
+}
+
+.more_btn {
+	display: inline-block;
+	padding-bottom: 4px;
+	margin-bottom: -4px;
+	font-size: 14px;
+	letter-spacing: .012em;
+	color: #191919;
+	border-bottom: 1px solid rgba(25, 25, 25, .4);
+}
+
+@media screen and (min-width: 720px) {
+	:root {
+		--font_big: 28px;
+		--font_middle: 24px;
+		--font_basic: 24px;
+		--font_small: 18px;
+		--font_s_btn: 16px;
+	}
+
+	.register {
+		font-size: var(--font_s_btn);
+	}
+}
