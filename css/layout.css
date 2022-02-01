@@ -4,7 +4,7 @@
 
 body {
   min-width: 320px;
-  font-family: 'SF pro kr', 'SF pro dp';
+  font-family: SFProKR, SFProDP, NtSansKR;
   font-size: var(--font_basic);
   font-weight: 400;
   line-height: 1.2;
