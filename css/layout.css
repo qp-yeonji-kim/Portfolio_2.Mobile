@@ -37,7 +37,7 @@ header .logo {
   margin-left: 12px;
   transition: margin .3s linear;
   z-index: 1000;
-  background-image: url('../images/logo_4.png');
+  background-image: url('../images/logo_w.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -51,7 +51,7 @@ header .logo a {
 
 body.hidden header .logo,
 header .logo.on {
-  background-image: url('../images/logo_3.png');
+  background-image: url('../images/logo_b.png');
 }
 
 header .btn_area {
@@ -282,13 +282,10 @@ footer .logo_wrap .logo {
   margin-bottom: 40px;
 }
 
-footer .logo_wrap .logo a {
-  display: block;
-}
-
-footer .logo_wrap .logo a svg {
+footer .logo_wrap .logo {
   width: 93px;
-  fill: var(--color_white);
+  height: 18px;
+  background: url('../images/logo_w.png') no-repeat center / contain;
 }
 
 footer .sub_nav {
